@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add zod
+
+PATH: 
+  C:\Program Files\Eclipse Adoptium\jdk-11.0.17.8-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Calibre2\;C:\Program Files\dotnet\;C:\Users\famil\AppData\Local\pnpm;C:\Users\famil\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\nvm;C:\Program Files\nodejs;C:\Users\famil\AppData\Local\Yarn\bin;C:\Users\famil\.dotnet\tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.2.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\dev\projects\mm\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+    "private": true,
+    "sideEffects": false,
+    "scripts": {
+      "build": "remix build",
+      "dev": "remix dev",
+      "typecheck": "tsc"
+    },
+    "dependencies": {
+      "@remix-run/node": "^1.11.1",
+      "@remix-run/react": "^1.11.1",
+      "@remix-run/vercel": "^1.11.1",
+      "@vercel/node": "^2.6.2",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "@remix-run/dev": "^1.11.1",
+      "@remix-run/eslint-config": "^1.11.1",
+      "@remix-run/serve": "^1.11.1",
+      "@types/react": "^18.0.25",
+      "@types/react-dom": "^18.0.8",
+      "eslint": "^8.27.0",
+      "typescript": "^4.8.4"
+    },
+    "engines": {
+      "node": ">=14"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
